@@ -15,3 +15,13 @@ const port = process.env.PORT;
 /* middleware connection */
 app.use(cors());
 app.use(express.json());
+
+/* enable backend */
+app.get("/", (req, res) => {
+    res.status(200).json({
+      acknowledgement: true,
+      title: "Tour Management System",
+      message: "OK",
+      description: "TMS request on server working.",
+    });
+  });
