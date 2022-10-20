@@ -198,5 +198,15 @@
     "status": "out-of-stock",
     "duration": "4 days & 5 nights",
     "transport": "By Aerial Tramways"
+  },
+  {
+    "image": "https://robohash.org/temporaquianam.png?size=500x500&set=set1",
+    "name": "The Road Less Traveled Tours",
+    "description": "I was starting to worry that my pet turtle could tell what I was thinking.",
+    "ratings": 4,
+    "price": 81.26,
+    "status": "out-of-stock",
+    "duration": "4 days & 5 nights",
+    "transport": "By Aerial Tramways"
   }
 ]

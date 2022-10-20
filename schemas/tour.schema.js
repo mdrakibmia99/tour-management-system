@@ -1,8 +1,7 @@
 /**
  * Title: Create a tour schema
  * Description: Model based schema with respect to tour's credentials
- * Author: Hasibul Islam
- * Date: 21/09/2022
+ * Author: Md Rakib Mia
  */
 
 /* external import */
@@ -97,3 +96,4 @@ const tourSchema = mongoose.Schema(
 const Tour = new mongoose.model("Tours", tourSchema);
 
 module.exports = Tour;
+
